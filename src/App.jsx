@@ -1,13 +1,23 @@
 
+import Container from "./components/Container"
+import Navbar from "./components/Navbar"
+import Aides from "./components/pages/Aides"
+import Home from "./components/pages/Home"
+
 
 function App() {
  
   return (
-   
-     <div className="w-screen h-screen bg-blue-800">
-      <h1 className="font-robo text-pink-700" >hello I am happy</h1>
-     </div>
-  )
+    <div>
+   <div><Navbar></Navbar></div>
+  
+ <div><Home/>
+ <Aides/>
+
+   </div>
+
+   </div>
+   )
 }
 
 export default App
