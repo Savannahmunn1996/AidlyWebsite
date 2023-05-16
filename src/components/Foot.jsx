@@ -2,7 +2,8 @@ import React from 'react'
 
 const Foot = () => {
   return (
-    <div>Foot</div>
+    <div className='bg-red-600
+    '>Foot</div>
   )
 }
 
