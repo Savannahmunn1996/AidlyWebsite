@@ -5,8 +5,12 @@ import Container from './Container'
 
 function Navbar ({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
-    <li className="nav-item">
+ 
+    <ul className="py-4 mb-12 flex justify-between">
+       
+       <img className='ml-8 h-7 w-13' src="/iconText.png" alt="aidly icon" />
+    
+    <li className="font-robo ml-80 text-lg text-Dpurp">
       <a
         href="#home"
         onClick={() => handlePageChange('Home')}
@@ -17,7 +21,7 @@ function Navbar ({ currentPage, handlePageChange }) {
         Home
       </a>
     </li>
-    <li className="nav-item">
+    <li className="font-robo text-lg text-Dpurp">
       <a
         href="#aides"
         onClick={() => handlePageChange('Aides')}
@@ -28,14 +32,14 @@ function Navbar ({ currentPage, handlePageChange }) {
       </a>
     </li>
    
-    <li className="nav-item">
+    <li className="mr-8 font-robo text-lg text-Dpurp">
       <a
         href="#contact"
         onClick={() => handlePageChange('Contact')}
         // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
         className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
       >
-        Contact
+        Contact Us
       </a>
     </li>
   </ul>

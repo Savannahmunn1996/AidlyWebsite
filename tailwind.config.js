@@ -6,7 +6,10 @@ export default {
   ],
   theme: {
     extend: {
-
+colors:{
+"Dpurp":"#6F00C9",
+"back":"#F6F6F4"
+},
       fontFamily: {
       "robo" : ["Roboto", "sans-serif"]
     
