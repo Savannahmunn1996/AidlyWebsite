@@ -16,10 +16,10 @@ const Foot = () => {
                         </p>
                     </div>
 
-                    <div><ImInstagram  className='w-10 h-10 cursor-pointer mt-4 p-0 flex'></ImInstagram> 
+                    <div><ImInstagram  className='w-10 h-10  mt-4 p-0 flex'></ImInstagram> 
 
 
-                    <ImTwitter  className='w-12 h-12 cursor-pointer mt-10 p-0'></ImTwitter> </div>
+                    <ImTwitter  className='w-12 h-12  mt-10 p-0'></ImTwitter> </div>
                     <div>
                         <h3 className="text-lg font-semibold mb-4 font-robo">Navigation</h3>
                         <ul className="list-none">

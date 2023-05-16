@@ -1,12 +1,15 @@
 
 import Container from "./components/Container"
 
+import AnimCursor from "./components/AnimCursor"
 
 function App() {
  
   return (
     <>
-    <div className="bg-back w-screen h-screen"><Container/></div>
+    <AnimCursor/>
+
+    <main className="bg-back w-screen h-screen "><Container/></main>
     
    </>
    )

@@ -5,12 +5,12 @@ import Container from './Container'
 
 function Navbar ({ currentPage, handlePageChange }) {
   return (
- 
+ <nav className= "mt-10">
     <ul className="py-4 mb-12 flex justify-between">
        
-       <img className='ml-8 h-7 w-13' src="/iconText.png" alt="aidly icon" />
+       <img className='ml-8 h-10 w-15' src="/iconText.png" alt="aidly icon" />
     
-    <li className="font-robo ml-80 text-lg text-Dpurp">
+    <li className="font-robo ml-80 text-xl text-Dpurp">
       <a
         href="#home"
         onClick={() => handlePageChange('Home')}
@@ -21,7 +21,7 @@ function Navbar ({ currentPage, handlePageChange }) {
         Home
       </a>
     </li>
-    <li className="font-robo text-lg text-Dpurp">
+    <li className="font-robo text-xl text-Dpurp">
       <a
         href="#aides"
         onClick={() => handlePageChange('Aides')}
@@ -32,7 +32,7 @@ function Navbar ({ currentPage, handlePageChange }) {
       </a>
     </li>
    
-    <li className="mr-8 font-robo text-lg text-Dpurp">
+    <li className="mr-8 font-robo text-xl text-Dpurp">
       <a
         href="#contact"
         onClick={() => handlePageChange('Contact')}
@@ -43,6 +43,7 @@ function Navbar ({ currentPage, handlePageChange }) {
       </a>
     </li>
   </ul>
+  </nav>
   )
 }
 

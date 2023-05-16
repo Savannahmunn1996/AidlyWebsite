@@ -1,23 +1,22 @@
 import React from 'react'
 
 const Home = () => {
-  return (
-    <div>
-    <h1>Home Page</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-      velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-      ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-      non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-      ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-      rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-      tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-      porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-      vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-      fames ac ante ipsum primis in faucibus.
-    </p>
-  </div>
-  )
+    return (
+        <div className="text-center p-10">
+            <h1 className='text-7xl py-2 font-robo mt-15 font-bold text-purple-950' >Get Your Own AI Team</h1>
+            <h3 className='text-2xl mt-3 py-2 font-robo text-purple-950 font-light' >Unlock the Power of Al with Specialized Experts</h3>
+
+            <button
+                type="submit"
+                className=" animate-bounce  w-60 mt-8  bg-gradient-to-r from-pink-800 to-purple-700 hover:from-purple-800 hover:to-blue-600 ... text-white py-2 px-4 rounded-[16px] focus:outline-none"
+            >
+                Download for Free
+            </button>
+
+
+
+        </div>
+    )
 }
 
 export default Home
