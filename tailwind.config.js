@@ -6,14 +6,15 @@ export default {
   ],
   theme: {
     extend: {
-colors:{
-"Dpurp":"#6F00C9",
-"back":"#F6F6F4"
-},
+      colors: {
+        "Dpurp": "#6F00C9",
+        "back": "#F6F6F4",
+        "footz": "#22062F"
+      },
       fontFamily: {
-      "robo" : ["Roboto", "sans-serif"]
-    
-    },
+        "robo": ["Roboto", "sans-serif"]
+
+      },
     },
   },
   plugins: [],
