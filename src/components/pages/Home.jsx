@@ -9,14 +9,28 @@ const Home = () => {
                 <a href="https://apps.apple.com/us/app/aidly-ai-chat/id6446067509" target="_blank" rel="noopener noreferrer" >
                     <button
                         type="submit"
-                        className=" animate-bounce  w-60 h-14 mt-10 shadow-xl bg-gradient-to-r from-pink-800 to-purple-700 hover:from-purple-800 hover:to-blue-600 ... text-white py-2 px-4 rounded-[16px] focus:outline-none"
+                        className=" animate-bounce  w-80 h-12 mt-10  shadow-xl bg-gradient-to-r from-pink-800 to-purple-700 hover:from-purple-800 hover:to-blue-600 ... text-white  font-robo text-xl py-2 px-4 rounded-[16px] focus:outline-none"
                     >
                         Download for Free
                     </button>
                 </a>
             </div>
 
-            <div className=' w-48 h-85 float-right mr-96 bg-slate-400'>
+<section>
+
+</section>
+
+
+
+
+
+            <div className=' w-64 h-85 pt-40 float-right mr-96  '>
+                <img className=' object-fill' src="/DeviceOutline.png" alt="A fake phone to hold the video" />
+
+            </div>
+
+
+            <div className=' w-64 mt-80 mb-40 pt-96 h-85 float-left ml-96'>
                 <img className=' object-fill' src="/DeviceOutline.png" alt="A fake phone to hold the video" />
 
             </div>

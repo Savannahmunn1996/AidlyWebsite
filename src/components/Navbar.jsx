@@ -7,7 +7,7 @@ function Navbar({ currentPage, handlePageChange }) {
   const [shadow, setShadow] = useState("")
 
   function handleScroll() {
-    if (window.scrollY >= 150) {
+    if (window.scrollY ) {
       setShadow(true)
     }
     else {
