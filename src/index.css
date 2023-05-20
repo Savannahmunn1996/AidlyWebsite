@@ -7,3 +7,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.nav.shad {
+  box-shadow: 6px 6px 9px grey;
+}
+
+.nav{
+  backdrop-filter: blur(20px);
+}

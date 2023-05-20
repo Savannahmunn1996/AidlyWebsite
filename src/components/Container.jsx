@@ -5,6 +5,11 @@ import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Foot from './Foot'
 
+import Sticky from 'react-stickynode';
+
+
+
+
 const Container = () => {
   {
     const [currentPage, setCurrentPage] = useState('Home');
@@ -28,9 +33,12 @@ const Container = () => {
     return (
 
       <div className="flex flex-col min-h-screen ">
-        <header>
-          <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
-        </header>
+        <Sticky enabled={true} top={0} bottomBoundary={1200}>
+          <header>
+            <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+          </header>
+        </Sticky>
+
         <main className="flex-grow">
           {renderPage()}
         </main>
