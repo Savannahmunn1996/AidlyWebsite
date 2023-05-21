@@ -9,7 +9,10 @@ function App() {
     <>
     <AnimCursor/>
 
-    <main className="bg-back w-screen h-screen "><Container/></main>
+    <main className="bg-back flex flex-col bg-auto ">
+      
+      <Container/>
+      </main>
     
    </>
    )
