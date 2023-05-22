@@ -2,6 +2,7 @@
 import Container from "./components/Container"
 
 import AnimCursor from "./components/AnimCursor"
+import ReactPlayer from 'react-player'
 
 function App() {
  

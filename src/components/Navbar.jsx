@@ -1,25 +1,46 @@
 
 
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Container from './Container'
 
-function Navbar({ currentPage, handlePageChange }) {
-  const [shadow, setShadow] = useState("")
+// function Navbar({ currentPage, handlePageChange }) {
+//   const [shadow, setShadow] = useState("")
 
-  function handleScroll() {
-    if (window.scrollY ) {
-      setShadow(true)
-    }
-    else {
-      setShadow("")
-    }
-  }
+//   function handleScroll() {
+//     if (window.scrollY ) {
+//       setShadow(true)
+//     }
+//     else {
+//       setShadow("")
+//     }
+//   }
 
   
 
 
-window.addEventListener("scroll", setShadow)
+// window.addEventListener("scroll", setShadow)
+function Navbar({ currentPage, handlePageChange }) {
+  const [shadow, setShadow] = useState(false);
 
+  useEffect(() => {
+    let timeoutId;
+
+    function handleScroll() {
+      clearTimeout(timeoutId);
+      setShadow(true);
+
+      timeoutId = setTimeout(() => {
+        setShadow(false);
+      }, 300); // Adjust the delay (in milliseconds) according to your preference
+    }
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      clearTimeout(timeoutId);
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
 
 
