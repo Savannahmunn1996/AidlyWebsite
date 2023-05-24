@@ -1,7 +1,7 @@
 import React from 'react'
 import { ImInstagram } from "react-icons/im";
 import { ImTwitter } from "react-icons/im";
-
+import { SlSocialReddit } from "react-icons/sl";
 
 
 
@@ -52,6 +52,11 @@ const Foot = () => {
                 <ImTwitter className='w-8 h-8 mr-1'></ImTwitter>
                 <p>Twitter</p>
               </div>
+              <div className='flex items-center mt-2'>
+                <SlSocialReddit className='w-8 h-8 mr-1'></SlSocialReddit>
+                <p>Reddit</p>
+              </div>
+
             </div>
           </div>
         </div>

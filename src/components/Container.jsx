@@ -33,7 +33,7 @@ const Container = () => {
     return (
 
       <div className="flex flex-col min-h-screen ">
-        <Sticky enabled={true} top={0} bottomBoundary={1200}>
+        <Sticky enabled={true} top={0} innerZ={2}>
           <header>
             <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
           </header>

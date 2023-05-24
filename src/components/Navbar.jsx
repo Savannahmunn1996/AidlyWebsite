@@ -15,7 +15,7 @@ import Container from './Container'
 //     }
 //   }
 
-  
+
 
 
 // window.addEventListener("scroll", setShadow)
@@ -45,12 +45,12 @@ function Navbar({ currentPage, handlePageChange }) {
 
 
   return (
-    <nav className={ shadow ?  "nav shad" :  "nav" }  >
-      <ul className="py-4 mb-12 flex justify-between">
+    <nav className={` md:block  ${shadow ? "nav shad" : "nav"} `}  >
+      <ul className="py-4 px-2 md:px-8 mb-12 flex justify-between">
 
-        <img className='ml-8 h-10 w-15' src="/iconText.png" alt="aidly icon" />
-        <div className='flex justify-between items-center mx-60 space-x-20 '>
-          <li className="font-robo ml-80 mx-3 text-xl text-Dpurp">
+        <img className=' h-10 w-15' src="/iconText.png" alt="aidly icon" />
+        <div className=' justify-between items-center   flex '>
+          <li className="font-robo mx-1 md:mx-3 text-md md:text-xl text-Dpurp">
             <a
               href="#home"
               onClick={() => handlePageChange('Home')}
@@ -61,7 +61,7 @@ function Navbar({ currentPage, handlePageChange }) {
               Home
             </a>
           </li>
-          <li className="font-robo mx-3 text-xl text-Dpurp">
+          <li className="font-robo mx-1 md:mx-3 text-md md:text-xl text-Dpurp">
             <a
               href="#aides"
               onClick={() => handlePageChange('Aides')}
@@ -72,7 +72,7 @@ function Navbar({ currentPage, handlePageChange }) {
             </a>
           </li>
 
-          <li className=" font-robo mx-3  text-xl text-Dpurp">
+          <li className=" font-robo mx-1 md:mx-3  text-md md:text-xl text-Dpurp">
             <a
               href="#contact"
               onClick={() => handlePageChange('Contact')}

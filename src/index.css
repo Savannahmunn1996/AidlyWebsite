@@ -16,3 +16,13 @@
   backdrop-filter: blur(20px);
 }
 
+/* * {
+  border: 1px solid red;
+} */
+
+.youtube-vid-container iframe {
+  border-radius: 2.25rem;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
