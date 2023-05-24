@@ -3,22 +3,12 @@
 import React, { useState, useEffect } from 'react'
 import Container from './Container'
 
-// function Navbar({ currentPage, handlePageChange }) {
-//   const [shadow, setShadow] = useState("")
-
-//   function handleScroll() {
-//     if (window.scrollY ) {
-//       setShadow(true)
-//     }
-//     else {
-//       setShadow("")
-//     }
-//   }
 
 
 
 
-// window.addEventListener("scroll", setShadow)
+
+
 function Navbar({ currentPage, handlePageChange }) {
   const [shadow, setShadow] = useState(false);
 
@@ -31,7 +21,7 @@ function Navbar({ currentPage, handlePageChange }) {
 
       timeoutId = setTimeout(() => {
         setShadow(false);
-      }, 300); // Adjust the delay (in milliseconds) according to your preference
+      }, 300); 
     }
 
     window.addEventListener("scroll", handleScroll);
