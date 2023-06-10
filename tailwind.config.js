@@ -12,8 +12,9 @@ export default {
         "footz": "#22062F"
       },
       fontFamily: {
-        "robo": ["Roboto", "sans-serif"],
-       
+         "robo": ["Roboto", "sans-serif"],
+      // "app": [ "-apple-system", 
+      //   "BlinkMacSystemFont", "sans-serif" ]
       },
     },
   },

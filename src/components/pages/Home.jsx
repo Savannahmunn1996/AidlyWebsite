@@ -1,13 +1,14 @@
 import React from 'react'
 
 import ReactPlayer from 'react-player/youtube'
+import ContactForm from '../ContactForm'
 
 const Home = () => {
     return (
         <>
             <div className="text-center p-10">
-                <h1 className='text-7xl py-2 font-apple mt-15 font-bold text-purple-950' >Get Your Own AI Team</h1>
-                <h3 className='text-2xl mt-3 py-2 font-apple text-purple-950 font-light' >Unlock the Power of Al with Specialized Experts</h3>
+                <h1 className='text-7xl py-2 font-robo mt-15 font-bold text-purple-950' >Get Your Own AI Team</h1>
+                <h3 className='text-2xl mt-3 py-2 font-robo  text-purple-950 font-light' >Unlock the Power of Al with Specialized Experts</h3>
                 <a href="https://apps.apple.com/us/app/aidly-ai-chat/id6446067509" target="_blank" rel="noopener noreferrer" >
                     <button
                         type="submit"
