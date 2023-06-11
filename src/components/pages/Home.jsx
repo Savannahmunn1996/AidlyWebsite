@@ -1,9 +1,13 @@
-import React from 'react'
-
+import React, {useEffect} from 'react'
+import axios from 'axios';
 import ReactPlayer from 'react-player/youtube'
-import ContactForm from '../ContactForm'
+
 
 const Home = () => {
+    useEffect(() => {
+        axios.get('http://localhost:3000/')
+
+    }, [])
     return (
         <>
             <div className="text-center p-10">
