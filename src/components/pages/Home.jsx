@@ -1,13 +1,13 @@
-import React, {useEffect} from 'react'
-import axios from 'axios';
+// import React, {useEffect} from 'react'
+
 import ReactPlayer from 'react-player/youtube'
 
 
 const Home = () => {
-    useEffect(() => {
-        axios.get('http://localhost:3000/')
+    // useEffect(() => {
+    //     axios.get('http://localhost:3000/')
 
-    }, [])
+    // }, [])
     return (
         <>
             <div className="text-center p-10">
