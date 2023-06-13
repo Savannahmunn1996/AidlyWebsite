@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { ImInstagram } from "react-icons/im";
 import { ImTwitter } from "react-icons/im";
 import { SlSocialReddit } from "react-icons/sl";
@@ -9,6 +9,23 @@ import { SlSocialReddit } from "react-icons/sl";
 
 
 const Foot = () => {
+
+  const [email, setEmail] = useState('');
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      await axios.post('/subscribe', { email });
+      console.log('Successfully subscribed!');
+      // Handle success, e.g., show a success message
+    } catch (error) {
+      console.error('Failed to subscribe:', error);
+      // Handle error, e.g., show an error message
+    }
+  };
+
+
   return (
     <footer className="bg-footz relative w-full text-white">
       <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -16,9 +33,11 @@ const Foot = () => {
           <div className='ml-10'>
             <h3 className="text-lg font-semibold mb-4 font-robo">Join Our Early Adopter List</h3>
             <p className="text-xs font-robo mb-2 text-gray-300 mr-8">We'll send you updates when major releases come out and you'll get special perks!</p>
-            <form className="flex flex-col mr-8">
+            <form className="flex flex-col mr-8" onSubmit={handleSubmit}>
               <input
                 type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
                 placeholder="Your Email"
                 className="bg-transparent border border-gray-500 text-gray-100 py-2 px-3 mb-2 rounded-[15px] focus:outline-none  md:w-96"
               />

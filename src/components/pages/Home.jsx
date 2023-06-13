@@ -4,10 +4,7 @@ import ReactPlayer from 'react-player/youtube'
 
 
 const Home = () => {
-    // useEffect(() => {
-    //     axios.get('http://localhost:3000/')
-
-    // }, [])
+   
     return (
         <>
             <div className="text-center p-10">
@@ -38,13 +35,13 @@ const Home = () => {
                             src="/DeviceOutline.png"
                             alt="A fake phone to hold the video"
                         />
-                        <div className="absolute top-[65px] bottom-2 left-2 right-2 h-full md:top-[65px] rounded-[2.25rem] rounded-t-none overflow-hidden">
+                        <div className="absolute top-4 bottom-2  left-2 right-2 h-full md:top-4 rounded-[2.25rem] rounded-t-none overflow-hidden">
                             <ReactPlayer
                                 url="https://www.youtube.com/watch?v=EpLX09EwhcY"
                                 volume={0}
                                 muted={true}
-                                width="93%"
-                                height="87%"
+                                width="94%"
+                                height="95%"
                                 className="youtube-vid-container object-cover  mx-auto rounded-[2.25rem] rounded-t-none"
                             />
                         </div>
@@ -65,13 +62,13 @@ const Home = () => {
                             src="/DeviceOutline.png"
                             alt="A fake phone to hold the video"
                         />
-                        <div className="absolute top-[65px] bottom-2 left-2 right-2 h-full md:top-[65px] rounded-[2.25rem] rounded-t-none overflow-hidden">
+                        <div className="absolute top-4 bottom-2  left-2 right-2 h-full md:top-4 rounded-[2.25rem] rounded-t-none overflow-hidden">
                             <ReactPlayer
                                 url="https://www.youtube.com/watch?v=EpLX09EwhcY"
                                 volume={0}
                                 muted={true}
-                                width="93%"
-                                height="87%"
+                                width="94%"
+                                height="95%"
                                 className="youtube-vid-container object-cover  mx-auto rounded-[2.25rem] rounded-t-none"
                             />
                         </div>
