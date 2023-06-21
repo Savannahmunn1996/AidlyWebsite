@@ -3,7 +3,7 @@ import { ImInstagram } from "react-icons/im";
 import { ImTwitter } from "react-icons/im";
 import { SlSocialReddit } from "react-icons/sl";
 
-
+import axios from 'axios';
 
 
 
@@ -16,7 +16,7 @@ const Foot = () => {
     e.preventDefault();
 
     try {
-      await axios.post('/subscribe', { email });
+      await axios.post('http://localhost:3000/subscribe', { email });
       console.log('Successfully subscribed!');
       // Handle success, e.g., show a success message
     } catch (error) {

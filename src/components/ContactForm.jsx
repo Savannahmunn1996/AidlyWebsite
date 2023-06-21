@@ -7,7 +7,7 @@ const ContactForm = () => {
 
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const [heyModal, setModal] = useState(false);
+  // const [heyModal, setModal] = useState(false);
 
 
   function sendMail() {
@@ -39,7 +39,7 @@ const ContactForm = () => {
           <button onClick={() => sendMail()} className='text-Dpurp rounded-[18px] outline-2 md:outline-4 outline outline-Dpurp w-40 h-10 ml-8 mb-14 hover:bg-gray-200'>Send Message</button>
         </div>
       </form>
-      <Modal isVisible={heyModal} close={() => setModal(false)} />
+      {/* <Modal isVisible={heyModal} close={() => setModal(false)} /> */}
 
     </>
   )
