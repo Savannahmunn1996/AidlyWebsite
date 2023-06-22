@@ -36,10 +36,11 @@ function Navbar({ currentPage, handlePageChange }) {
 
   return (
     <nav className={` md:block  ${shadow ? "nav shad" : "nav"} `}  >
-      <ul className="py-4 px-2 md:px-8 mb-12 flex justify-between">
-
-        <img className=' h-10 w-15' src="/iconText.png" alt="aidly icon" />
-        <div className=' justify-between items-center   flex '>
+      {/* I added a mr-96 */}
+      <ul className="py-4 px-2 md:px-8 mb-12 flex justify-between mr-96">
+{/* I added a ml-96, these changes ruined responsiveness */}
+        <img className='ml-96 h-10 w-15' src="/iconText.png" alt="aidly icon" />
+        <div className=' justify-between items-center flex '>
           <li className="font-robo mx-1 md:mx-3 text-md md:text-xl text-Dpurp">
             <a
               href="#home"
