@@ -37,11 +37,11 @@ function Navbar({ currentPage, handlePageChange }) {
   return (
     <nav className={` md:block  ${shadow ? "nav shad" : "nav"} `}  >
       {/* I added a mr-96 */}
-      <ul className="py-4 px-2 md:px-8 mb-12 flex justify-between mr-96">
+      <ul className="py-4  md:px-4 mb-12 flex justify-center ">
 {/* I added a ml-96, these changes ruined responsiveness */}
-        <img className='ml-96 h-10 w-15' src="/iconText.png" alt="aidly icon" />
+        <img className='mr-6 md:mr-96 h-12 w-32 md:w-40' src="/iconText.png" alt="aidly icon" />
         <div className=' justify-between items-center flex '>
-          <li className="font-robo mx-1 md:mx-3 text-md md:text-xl text-Dpurp">
+          <li className="font-robo mx-1 md:mx-3 text-lg md:text-2xl text-Dpurp">
             <a
               href="#home"
               onClick={() => handlePageChange('Home')}
@@ -52,7 +52,7 @@ function Navbar({ currentPage, handlePageChange }) {
               Home
             </a>
           </li>
-          <li className="font-robo mx-1 md:mx-3 text-md md:text-xl text-Dpurp">
+          <li className="font-robo mx-1 md:mx-3 text-lg md:text-2xl text-Dpurp">
             <a
               href="#aides"
               onClick={() => handlePageChange('Aides')}
@@ -63,7 +63,7 @@ function Navbar({ currentPage, handlePageChange }) {
             </a>
           </li>
 
-          <li className=" font-robo mx-1 md:mx-3  text-md md:text-xl text-Dpurp">
+          <li className=" font-robo mx-1 md:mx-4  text-lg md:text-2xl text-Dpurp ">
             <a
               href="#contact"
               onClick={() => handlePageChange('Contact')}

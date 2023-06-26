@@ -28,10 +28,10 @@ const ContactForm = () => {
     }
   }
 
- 
-   
-     
-        {/* <form>
+
+
+
+  {/* <form>
           <div className="items-center grid grid-cols-1">
             <label htmlFor="message" className="text-4xl text-gray-700 font-semibold ml-8 mb-10">
               Dear Aidly team,
@@ -62,14 +62,14 @@ const ContactForm = () => {
      */}
 
 
-let formOrThankyou;
+  let formOrThankyou;
   if (!thanks) {
     formOrThankyou = (
       <form>
         <div className="items-center grid grid-cols-1">
           <label
             htmlFor="message"
-            className="text-4xl text-gray-700 font-semibold ml-8 mb-10"
+            className="text-4xl text-gray-700 font-semibold ml-96 mb-10"
           >
             Dear Aidly team,
           </label>
@@ -84,11 +84,11 @@ let formOrThankyou;
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             className="mb-10 h-28 focus:outline-gray-300 bg-gray-200"
-            placeholder="Enter Email"
+         placeholder="Enter Email"
           ></input>
           <button
             onClick={() => sendMail()}
-            className="text-Dpurp rounded-[18px] outline-2 md:outline-4 outline outline-Dpurp w-40 h-10 ml-8 mb-14 hover:bg-gray-200"
+            className="text-Dpurp rounded-[18px] outline-2 md:outline-4 outline outline-Dpurp w-40 h-10 ml-96 mb-14 hover:bg-gray-200"
           >
             Send Message
           </button>
@@ -101,8 +101,8 @@ let formOrThankyou;
 
   return <>{formOrThankyou}</>;
 };
-   
- 
+
+
 
 
 export default ContactForm
