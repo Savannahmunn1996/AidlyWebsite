@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: "class",
   content: [
     "./index.html",
     "./src/**/*.{html,js,jsx}"
@@ -12,9 +13,12 @@ export default {
         "footz": "#22062F"
       },
       fontFamily: {
-         "robo": ["Roboto", "sans-serif"],
-      // "app": [ "-apple-system", 
-      //   "BlinkMacSystemFont", "sans-serif" ]
+        "robo": ["Roboto", "sans-serif"],
+        "gilroy": ['Gilroy', 'sans-serif'],
+        "SFPro": ["SF Pro Display", "sans-sefif"]
+
+        // "app": [ "-apple-system", 
+        //   "BlinkMacSystemFont", "sans-serif" ]
       },
     },
   },

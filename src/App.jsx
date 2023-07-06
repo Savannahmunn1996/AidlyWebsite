@@ -10,7 +10,7 @@ function App() {
     <>
     <AnimCursor/>
 
-    <main className="bg-back flex flex-col bg-auto ">
+    <main className= "bg-back flex flex-col bg-auto" >
       
       <Container/>
       </main>

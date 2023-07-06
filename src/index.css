@@ -1,6 +1,6 @@
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+  /* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap'); */
 
 
 @tailwind base;
@@ -20,14 +20,47 @@
   border: 1px solid red;
 } */
 
-.youtube-vid-container iframe {
+.youtube-vid-container video {
   border-radius: 2.25rem;
-  /* border-top-left-radius: 0;
-  border-top-right-radius: 0; */
+  /* border-top-left-radius: 2.25;
+  border-top-right-radius: 2.25; */
 }
 
  
-body {
+/* body {
   font-family: -apple-system, 
       BlinkMacSystemFont, sans-serif;
+} */
+
+@font-face {
+  font-family: 'Gilroy'; /*a name to be used later*/
+  src: url('/Gilroy-Regular.otf'); /*URL to font*/
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFPro'; /*a name to be used later*/
+  src: url('/SF-Pro-Display-Regular.otf'); /*URL to font*/
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFPro'; /*a name to be used later*/
+  src: url('/SF-Pro-Display-Semibold.otf'); /*URL to font*/
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFPro'; /*a name to be used later*/
+  src: url('/SF-Pro-Display-Bold.otf'); /*URL to font*/
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  font-family:"SFPro";
+  
 }

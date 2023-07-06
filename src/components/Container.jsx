@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import Navbar from './Navbar';
 import Aides from './pages/Aides';
 import Contact from './pages/Contact';
@@ -12,7 +12,21 @@ import Sticky from 'react-stickynode';
 
 const Container = () => {
   {
+
+    const [isAidesPage, setIsAidesPage] = useState(false);
+    const [darkMode, setDarkMode] = useState(false);
     const [currentPage, setCurrentPage] = useState('Home');
+
+
+
+    const handlePageChange = (page) => {
+      setCurrentPage(page);
+      setIsAidesPage(page === 'Aides');
+    };
+    const toggleDarkMode = () => {
+      setDarkMode(!darkMode);
+      
+    };
 
     // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
     const renderPage = () => {
@@ -20,7 +34,7 @@ const Container = () => {
         return <Home />;
       }
       if (currentPage === 'Aides') {
-        return <Aides />;
+        return <Aides darkMode={darkMode} />;
       }
       if (currentPage === 'Contact') {
         return <Contact />;
@@ -28,14 +42,16 @@ const Container = () => {
       return <Contact />;
     };
 
-    const handlePageChange = (page) => setCurrentPage(page);
+    
 
     return (
 
       <div className="flex flex-col min-h-screen ">
         <Sticky enabled={true} top={0} innerZ={2}>
           <header>
-            <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+            <Navbar currentPage={currentPage} handlePageChange={handlePageChange}
+            isAidesPage={isAidesPage}
+            toggleDarkMode={toggleDarkMode} />
           </header>
         </Sticky>
 
