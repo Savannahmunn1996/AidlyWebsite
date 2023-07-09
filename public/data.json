@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Atlan",
+        "header": "Your Travel Guide In Your Pocket",
+        "description":"Destinations, Itineraries, Flights, Hotels",
+        "textcolor": "orange",
+        "textcolortwo": "orange"
+    },
+    {
+        "name": "Atlan",
+        "header": "Your Travel Guide In Your Pocket",
+        "description":"Destinations, Itineraries, Flights, Hotels",
+        "textcolor": "white",
+        "textcolortwo": "text-amber-300"
+    },
+    {
+        "name": "Atlan",
+        "header": "Your Travel Guide In Your Pocket",
+        "description":"Destinations, Itineraries, Flights, Hotels",
+        "textcolor": "text-lime-400",
+        "textcolortwo": "text-lime-300"
+    },
+    {
+        "name": "Atlan",
+        "header": "Your Travel Guide In Your Pocket",
+        "description":"Destinations, Itineraries, Flights, Hotels",
+        "textcolor": "text-red-400",
+        "textcolortwo": "text-red-300"
+    },
+    {
+        "name": "Atlan",
+        "header": "Your Travel Guide In Your Pocket",
+        "description":"Destinations, Itineraries, Flights, Hotels",
+        "textcolor": "text-purple-400",
+        "textcolortwo": "text-purple-300"
+    },
+    {
+        "name": "Atlan",
+        "header": "Your Travel Guide In Your Pocket",
+        "description":"Destinations, Itineraries, Flights, Hotels",
+        "textcolor": "text-yellow-400 ",
+        "textcolortwo": "text-yellow-300"
+    },
+    {
+        "name": "Atlan",
+        "header": "Your Travel Guide In Your Pocket",
+        "description":"Destinations, Itineraries, Flights, Hotels",
+        "textcolor": "text-pink-400 ",
+        "textcolortwo": "text-pink-300"
+    },
+    {
+        "name": "Atlan",
+        "header": "Your Travel Guide In Your Pocket",
+        "description":"Destinations, Itineraries, Flights, Hotels",
+        "textcolor": "text-pink-800 ",
+        "textcolortwo": "text-pink-300"
+    }
+]

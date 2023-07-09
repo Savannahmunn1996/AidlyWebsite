@@ -10,7 +10,8 @@ export default {
       colors: {
         "Dpurp": "#6F00C9",
         "back": "#F6F6F4",
-        "footz": "#22062F"
+        "footz": "#22062F",
+        "mytext": "#558229"
       },
       fontFamily: {
         "robo": ["Roboto", "sans-serif"],

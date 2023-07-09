@@ -64,3 +64,11 @@
   font-family:"SFPro";
   
 }
+
+/* h1{
+  color:
+} */
+
+.text {
+  transform: translateX(300px);
+}

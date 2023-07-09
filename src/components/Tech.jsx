@@ -3,9 +3,9 @@ import ReactPlayer from 'react-player'
 
 const Tech = () => {
   return (
-    <div className=" grid grid-cols-1 md:grid-cols-2 w-10/12 mx-auto max-w-3xl gap-8  md:gap-32   items-center">
+    <div className=" flex flex-col absolute inset-y-0 right-0 mx-auto  gap-8  lg:mt-16 lg:mb-10 md:gap-32 lg:pr-48 md: items-center">
     <div className=" ">
-        <div className="relative mt-8 md:mt-16 w-[325px]  lg:w-[370px]  md:w-full mx-auto">
+        <div className="relative mt-8 md:mt-16 w-[300px]  lg:w-[365px]  md:w-full mx-auto">
             <img
                 className="object-fill rounded-xl"
                 src="/DeviceOutline.png"

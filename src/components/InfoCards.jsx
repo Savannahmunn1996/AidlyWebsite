@@ -1,8 +1,18 @@
 import React from 'react'
-
+import { InView } from 'react-intersection-observer';
 import Tech from "./Tech"
+import Card from "./Card"
+import data from "../../public/data.json"
 
 const InfoCards = () => {
+
+  const handleInView = (inView, entry) => {
+    console.log('Inview:', inView)
+    console.log("entry:", entry)
+  }
+
+
+
   return (<>
     {/* <div className=" grid grid-cols-2 gap-4 place-content-evenly  ">
     <div className =" bg-lime-300 w-80 h-80 md:w-96 md:h-96  border-yellow-200 justify-center items-center ">
@@ -10,14 +20,36 @@ const InfoCards = () => {
 <h1 className='text-orange-400 text-5xl m'>Your Travel Guide In Your Pocket</h1>
     </div>
     </div> */}
-    <card className='grid grid-cols-1   mx-auto  gap-2   items-center'>
-    <h1 className='text-orange-400 text-4xl ml-12 md:ml-40'>Atlan</h1>
-    <h1 className='text-orange-400 text-6xl mt-16 md:mt-40 ml-12 md:ml-40'>Your Travel Guide In Your Pocket</h1>
-    <h1 className='text-orange-300 text-5xl mt-8 md:mt-12 ml-12 md:ml-40'>Destinations, Itineraries, Flights, Hotels</h1>
-    </card>
-    <Tech/>
+    {/* <InView as="div" onChange={handleInView}> */}
 
-    </>
+
+    
+    {data.map((item, idx) => {
+      return (
+        <React.Fragment key={idx}>
+          <InView as="div" threshold={0.5} onChange={(inView, entry) => {
+            console.log('Inview:', inView)
+            console.log("entry: ", entry.target)
+            // when in view
+            // remove class and set a useState var to true
+            // entry.target
+          }}>
+            <Card
+
+              name={item.name}
+              header={item.header}
+              description={item.description}
+              textcolor={item.textcolor}
+              textcolortwo={item.textcolortwo}
+            />
+          </InView>
+        </React.Fragment>
+      )
+    })}
+    {/* </InView> */}
+    <Tech />
+
+  </>
   )
 }
 

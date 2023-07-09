@@ -78,13 +78,13 @@ const ContactForm = () => {
             onChange={(e) => setMessage(e.target.value)}
             type="text"
             className="focus:outline-gray-300 text-center h-40 bg-gray-200"
-            placeholder="Enter Message"
+           // placeholder="Enter Message"
           ></input>
           <input
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             className="mb-10 h-28  text-center focus:outline-gray-300 bg-gray-200"
-         placeholder="Enter Email"
+         //placeholder="Enter Email"
           ></input>
           <button
             onClick={() => sendMail()}
