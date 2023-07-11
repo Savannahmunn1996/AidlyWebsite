@@ -2,56 +2,59 @@
     {
         "name": "Atlan",
         "header": "Your Travel Guide In Your Pocket",
-        "description":"Destinations, Itineraries, Flights, Hotels",
+        "description": "Destinations, Itineraries, Flights, Hotels",
         "textcolor": "orange",
-        "textcolortwo": "orange"
+        "textcolortwo": "text-orange-300",
+        "cardVideoUrl": "/screen.MP4"
     },
     {
         "name": "Atlan",
         "header": "Your Travel Guide In Your Pocket",
-        "description":"Destinations, Itineraries, Flights, Hotels",
+        "description": "Destinations, Itineraries, Flights, Hotels",
         "textcolor": "white",
-        "textcolortwo": "text-amber-300"
+        "textcolortwo": "text-orange-300",
+        "cardVideoUrl": "https://www.youtube.com/watch?v=V5AEBl8sIdo"
     },
     {
         "name": "Atlan",
         "header": "Your Travel Guide In Your Pocket",
-        "description":"Destinations, Itineraries, Flights, Hotels",
-        "textcolor": "text-lime-400",
-        "textcolortwo": "text-lime-300"
+        "description": "Destinations, Itineraries, Flights, Hotels",
+        "textcolor": "lime",
+        "textcolortwo": "text-lime-300",
+        "cardVideoUrl": "/screen.MP4"
     },
     {
         "name": "Atlan",
         "header": "Your Travel Guide In Your Pocket",
-        "description":"Destinations, Itineraries, Flights, Hotels",
-        "textcolor": "text-red-400",
+        "description": "Destinations, Itineraries, Flights, Hotels",
+        "textcolor": "red",
         "textcolortwo": "text-red-300"
     },
     {
         "name": "Atlan",
         "header": "Your Travel Guide In Your Pocket",
-        "description":"Destinations, Itineraries, Flights, Hotels",
-        "textcolor": "text-purple-400",
+        "description": "Destinations, Itineraries, Flights, Hotels",
+        "textcolor": "purple",
         "textcolortwo": "text-purple-300"
     },
     {
         "name": "Atlan",
         "header": "Your Travel Guide In Your Pocket",
-        "description":"Destinations, Itineraries, Flights, Hotels",
-        "textcolor": "text-yellow-400 ",
+        "description": "Destinations, Itineraries, Flights, Hotels",
+        "textcolor": "yellow",
         "textcolortwo": "text-yellow-300"
     },
     {
         "name": "Atlan",
         "header": "Your Travel Guide In Your Pocket",
-        "description":"Destinations, Itineraries, Flights, Hotels",
-        "textcolor": "text-pink-400 ",
+        "description": "Destinations, Itineraries, Flights, Hotels",
+        "textcolor": "pink",
         "textcolortwo": "text-pink-300"
     },
     {
         "name": "Atlan",
         "header": "Your Travel Guide In Your Pocket",
-        "description":"Destinations, Itineraries, Flights, Hotels",
+        "description": "Destinations, Itineraries, Flights, Hotels",
         "textcolor": "text-pink-800 ",
         "textcolortwo": "text-pink-300"
     }

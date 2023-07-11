@@ -72,3 +72,45 @@
 .text {
   transform: translateX(300px);
 }
+
+.test {
+  height: 100vh;
+}
+
+.orange, .orange>h1 {
+  color: orange;
+}
+
+.orange h2 {
+  color: orange;
+  opacity: .8;
+}
+
+.white, .white>h1{
+  color: white !important;
+}
+
+.white h2{
+  color: white !important;
+}
+
+.lime h1 {
+  color: lime;
+}
+.lime h2 {
+  color: lime;
+  opacity: .8;
+}
+
+.red h1{
+  color: red;
+}
+
+.red h2{
+  color: red;
+  opacity: .8;
+}
+
+.nav-link {
+  transition: all .3s;
+}

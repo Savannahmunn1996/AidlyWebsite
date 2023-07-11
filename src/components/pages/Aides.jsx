@@ -2,7 +2,7 @@
 import React from 'react'
 import InfoCards from '../InfoCards'
 
-const Aides = ({darkMode}) => {
+const Aides = ({darkMode, setTheme}) => {
 
   // const [currentIt, setIt] = useState();
 
@@ -51,7 +51,7 @@ const Aides = ({darkMode}) => {
 
   return (
     <div className={`bg-${darkMode ? 'black' : 'black'}  min-h-screen  `} >
-      <InfoCards/>
+      <InfoCards setTheme={setTheme}/>
       </div>
   )
 }

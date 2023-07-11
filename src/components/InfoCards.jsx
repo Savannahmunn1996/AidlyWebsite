@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { InView } from 'react-intersection-observer';
 import Tech from "./Tech"
 import Card from "./Card"
 import data from "../../public/data.json"
 
-const InfoCards = () => {
+const InfoCards = ({ setTheme }) => {
+
+  const [videoUrl, setVideoUrl] = useState('/screen.MP4');
 
   const handleInView = (inView, entry) => {
     console.log('Inview:', inView)
@@ -23,31 +25,27 @@ const InfoCards = () => {
     {/* <InView as="div" onChange={handleInView}> */}
 
 
-    
+
     {data.map((item, idx) => {
       return (
-        <React.Fragment key={idx}>
-          <InView as="div" threshold={0.5} onChange={(inView, entry) => {
-            console.log('Inview:', inView)
-            console.log("entry: ", entry.target)
-            // when in view
-            // remove class and set a useState var to true
-            // entry.target
-          }}>
-            <Card
+        <React.Fragment key={idx} >
 
-              name={item.name}
-              header={item.header}
-              description={item.description}
-              textcolor={item.textcolor}
-              textcolortwo={item.textcolortwo}
-            />
-          </InView>
+          <Card
+            setVideoUrl={setVideoUrl}
+            setTheme={setTheme}
+            name={item.name}
+            header={item.header}
+            description={item.description}
+            textcolor={item.textcolor}
+            textcolortwo={item.textcolortwo}
+            cardVideoUrl={item.cardVideoUrl}
+          />
+
         </React.Fragment>
       )
     })}
     {/* </InView> */}
-    <Tech />
+    <Tech videoUrl={videoUrl} />
 
   </>
   )
