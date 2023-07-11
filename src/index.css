@@ -78,11 +78,11 @@
 }
 
 .orange, .orange>h1 {
-  color: orange;
+  color: #FF8C00;
 }
 
 .orange h2 {
-  color: orange;
+  color: #ef982e;
   opacity: .8;
 }
 
@@ -94,22 +94,68 @@
   color: white !important;
 }
 
-.lime h1 {
-  color: lime;
+.pink, .pink>h1{
+  color: rgb(255, 173, 187)
 }
-.lime h2 {
-  color: lime;
+
+.pink h2{
+  color:darksalmon
+}
+
+.blue, .blue>h1 {
+  color: blue;
+}
+.blue h2 {
+  color: blue;
   opacity: .8;
 }
 
-.red h1{
-  color: red;
+.red, .red>h1{
+  color: rgb(207, 30, 30);
 }
 
 .red h2{
-  color: red;
+  color: rgb(231, 54, 96);
   opacity: .8;
 }
+
+
+
+.purple, .purple>h1{
+  color: rgb(118, 36, 218)
+}
+
+.purple h2{
+  color:rgb(140, 81, 213)
+}
+
+.ian, .ian>h1{
+  color: rgb(146, 52, 208)
+}
+
+.ian h2{
+  color:rgb(156, 81, 213)
+}
+
+
+
+.lex, .lex>h1{
+  color: rgb(28, 90, 234)
+}
+
+.lex h2{
+  color:rgb(55, 138, 247)
+}
+
+
+.green, .green>h1{
+  color: rgb(25, 188, 153)
+}
+
+.green h2{
+  color:rgb(108, 239, 217)
+}
+
 
 .nav-link {
   transition: all .3s;

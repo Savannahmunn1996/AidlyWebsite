@@ -4,58 +4,60 @@
         "header": "Your Travel Guide In Your Pocket",
         "description": "Destinations, Itineraries, Flights, Hotels",
         "textcolor": "orange",
-        "textcolortwo": "text-orange-300",
+      
         "cardVideoUrl": "/screen.MP4"
     },
     {
-        "name": "Atlan",
-        "header": "Your Travel Guide In Your Pocket",
-        "description": "Destinations, Itineraries, Flights, Hotels",
-        "textcolor": "white",
-        "textcolortwo": "text-orange-300",
+        "name": "Jess",
+        "header": "Your Fitness Coach In Your Pocket",
+        "description": "Workouts, Diet, Goals",
+        "textcolor": "pink",
+       
         "cardVideoUrl": "https://www.youtube.com/watch?v=V5AEBl8sIdo"
     },
     {
-        "name": "Atlan",
-        "header": "Your Travel Guide In Your Pocket",
-        "description": "Destinations, Itineraries, Flights, Hotels",
-        "textcolor": "lime",
-        "textcolortwo": "text-lime-300",
+        "name": "Emma",
+        "header": "Your Cooking Expert In Your Pocket",
+        "description": "Recipes, Nutrition, Meal Plans",
+        "textcolor": "blue",
+        
         "cardVideoUrl": "/screen.MP4"
     },
     {
-        "name": "Atlan",
-        "header": "Your Travel Guide In Your Pocket",
-        "description": "Destinations, Itineraries, Flights, Hotels",
-        "textcolor": "red",
-        "textcolortwo": "text-red-300"
-    },
-    {
-        "name": "Atlan",
-        "header": "Your Travel Guide In Your Pocket",
-        "description": "Destinations, Itineraries, Flights, Hotels",
+        "name": "Linus",
+        "header": "Your Tech Support In Your Pocket",
+        "description": "Troubleshooting, Guided Instructions",
         "textcolor": "purple",
-        "textcolortwo": "text-purple-300"
+        "cardVideoUrl": "https://www.youtube.com/watch?v=Fr-CuY0H38A"
     },
     {
-        "name": "Atlan",
-        "header": "Your Travel Guide In Your Pocket",
-        "description": "Destinations, Itineraries, Flights, Hotels",
-        "textcolor": "yellow",
-        "textcolortwo": "text-yellow-300"
+        "name": "Tyra",
+        "header": "Your Legal Aide In Your Pocket",
+        "description": "Legal Explanation, Templates",
+        "textcolor": "red",
+        "cardVideoUrl": "https://www.youtube.com/watch?v=pyEKOY1TIbU"
+       
     },
     {
-        "name": "Atlan",
-        "header": "Your Travel Guide In Your Pocket",
-        "description": "Destinations, Itineraries, Flights, Hotels",
-        "textcolor": "pink",
-        "textcolortwo": "text-pink-300"
+        "name": "Ian",
+        "header": "Your Developer In Your Pocket",
+        "description": "Code, Code Explanation, Conversion",
+        "textcolor": "ian",
+        "cardVideoUrl": "https://www.youtube.com/watch?v=Fr-CuY0H38A"
     },
     {
-        "name": "Atlan",
-        "header": "Your Travel Guide In Your Pocket",
-        "description": "Destinations, Itineraries, Flights, Hotels",
-        "textcolor": "text-pink-800 ",
-        "textcolortwo": "text-pink-300"
+        "name": "Lex",
+        "header": "Your Tutor In Your Pocket",
+        "description": "Summaries, Flash Cards, Memorization, Learning Techniques",
+        "textcolor": "lex",
+        "cardVideoUrl": "/screen.MP4"
+    },
+    {
+        "name": "Andre",
+        "header": "Your Car Aide In Your Pocket",
+        "description": "Common Issue Info, Troubleshooting",
+        "textcolor": "green ",
+        "cardVideoUrl": "https://www.youtube.com/watch?v=Fr-CuY0H38A"
+    
     }
 ]
