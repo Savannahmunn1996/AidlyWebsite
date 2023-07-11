@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react'
 import Container from './Container'
 import Aides from './pages/Aides';
 import { Link, useLocation } from 'react-router-dom'
-
+import iconText from '../assets/iconText.png'
 
 
 
@@ -61,7 +61,7 @@ function Navbar({ darkMode, setDarkMode, theme }) {
       {/* I added a mr-96 */}
       <ul className="py-4 md:px-4 mb- flex justify-between ">
 
-        <img className='ml-4 md:ml-40 h-12 w-32 md:w-40' src="/iconText.png" alt="aidly icon" />
+        <img className='ml-4 md:ml-40 h-12 w-32 md:w-40' src={iconText} alt="aidly icon" />
         <div className=' justify-between items-center flex '>
           <li className="font-robo mx-1 md:mx-3 text-lg md:text-2xl ">
             <Link

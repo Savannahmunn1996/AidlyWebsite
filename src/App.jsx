@@ -4,7 +4,7 @@ import Container from "./components/Container"
 import AnimCursor from "./components/AnimCursor"
 import ReactPlayer from 'react-player'
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch, Route, Link
 } from 'react-router-dom';
 
@@ -39,7 +39,7 @@ function App() {
             <Sticky enabled={true} top={0} innerZ={2}>
               <header>
                 <Navbar
-                 
+
                   theme={theme}
                   setDarkMode={setDarkMode}
                   darkMode={darkMode}

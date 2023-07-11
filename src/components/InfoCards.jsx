@@ -2,9 +2,10 @@ import React, { useState } from 'react'
 import { InView } from 'react-intersection-observer';
 import Tech from "./Tech"
 import Card from "./Card"
-import data from "../../public/data.json"
+import data from "../data.json"
 
 const InfoCards = ({ setTheme }) => {
+
 
   const [videoUrl, setVideoUrl] = useState('/screen.MP4');
 

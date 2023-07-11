@@ -160,3 +160,10 @@
 .nav-link {
   transition: all .3s;
 }
+
+#header{
+  display:none;
+}
+#footer{
+  display:none;
+}

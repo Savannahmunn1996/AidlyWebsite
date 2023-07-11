@@ -1,7 +1,8 @@
 // import React, {useEffect} from 'react'
 
 import ReactPlayer from 'react-player'
-
+import device from "../../assets/DeviceOutline.png"
+import vid from "../../assets/screen.MP4"
 
 const Home = () => {
 
@@ -32,12 +33,12 @@ const Home = () => {
                     <div className="relative mt-8  md:mt-16 w-[325px] lg:w-[370px] md:w-full mx-auto">
                         <img
                             className="object-fill rounded-xl "
-                            src="/DeviceOutline.png"
+                            src={device}
                             alt="A fake phone to hold the video"
                         />
                         <div className="absolute top-4 bottom-2  left-2 right-2 h-full md:top-4 rounded-[2.25rem] rounded-t-none overflow-hidden">
                             <ReactPlayer
-                                url="/screen.MP4"
+                                url={vid}
                                 volume={0}
                                 playing={true}
                                 loop={true}
@@ -61,12 +62,12 @@ const Home = () => {
                     <div className="relative mt-8 md:mt-16 w-[325px]  lg:w-[370px]  md:w-full mx-auto">
                         <img
                             className="object-fill rounded-xl"
-                            src="/DeviceOutline.png"
+                            src={device}
                             alt="A fake phone to hold the video"
                         />
                         <div className="absolute top-4 bottom-2  left-2 right-2 h-full md:top-4 rounded-[2.25rem] rounded-t-none overflow-hidden">
                             <ReactPlayer
-                                url="/screen.MP4"
+                                url={vid}
                                 volume={0}
                                 muted={true}
                                 playing={true}
