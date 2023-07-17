@@ -5,6 +5,7 @@ import Container from './Container'
 import Aides from './pages/Aides';
 import { Link, useLocation } from 'react-router-dom'
 import iconText from '../assets/iconText.png'
+import DownloadButton from './DownloadButton';
 
 
 
@@ -61,9 +62,9 @@ function Navbar({ darkMode, setDarkMode, theme }) {
       {/* I added a mr-96 */}
       <ul className="py-4 md:px-4 mb- flex justify-between ">
 
-        <img className='ml-4 md:ml-40 h-12 w-32 md:w-40' src={iconText} alt="aidly icon" />
-        <div className=' justify-between items-center flex '>
-          <li className="font-robo mx-1 md:mx-3 text-lg md:text-2xl ">
+        <img className='ml-4 md:ml-40 h-10 w-20 md:w-32' src={iconText} alt="aidly icon" />
+        <div className=' justify-between items-center flex mr-10'>
+          <li className="font-robo mx-1 md:mx-3 text-lg  ">
             <Link
               to="/"
               className="nav-link"
@@ -77,7 +78,7 @@ function Navbar({ darkMode, setDarkMode, theme }) {
               Home
             </Link>
           </li>
-          <li className="font-robo mx-1 md:mx-3 text-lg md:text-2xl">
+          <li className="font-robo mx-1 md:mx-3 text-lg ">
             <Link
               className="nav-link"
               to="/aides"
@@ -91,7 +92,7 @@ function Navbar({ darkMode, setDarkMode, theme }) {
 
           </li>
 
-          <li className=" font-robo mx-1 md:mx-4 mr-4 text-lg md:text-2xl md:mr-40  ">
+          <li className=" font-robo mx-1 md:mx-4 mr-4 text-lg  md:mr-20  ">
             <Link
               className="nav-link"
               to="/contact"
@@ -103,7 +104,12 @@ function Navbar({ darkMode, setDarkMode, theme }) {
               Contact Us
             </Link>
           </li>
+          
+          <DownloadButton ></DownloadButton>
+        
+         
         </div>
+       
       </ul>
     </nav>
   )

@@ -78,11 +78,11 @@
 }
 
 .orange, .orange>h1 {
-  color: #FF8C00;
+  color:#db9315;
 }
 
 .orange h2 {
-  color: #ef982e;
+  color: #f6b05e;
   opacity: .8;
 }
 
@@ -95,65 +95,66 @@
 }
 
 .pink, .pink>h1{
-  color: rgb(255, 173, 187)
+  color:#f1ba9e
 }
 
 .pink h2{
-  color:darksalmon
+  color:#d68b65
 }
 
 .blue, .blue>h1 {
-  color: blue;
+  color: #3e7fff
+  
 }
 .blue h2 {
-  color: blue;
+  color: #85aaf2;
   opacity: .8;
 }
 
 .red, .red>h1{
-  color: rgb(207, 30, 30);
+  color: #bb2b30
 }
 
 .red h2{
-  color: rgb(231, 54, 96);
-  opacity: .8;
+  color: #bf4f63
+ 
 }
 
 
 
 .purple, .purple>h1{
-  color: rgb(118, 36, 218)
+  color:#4f3b8e
 }
 
 .purple h2{
-  color:rgb(140, 81, 213)
+  color:#66569a
 }
 
 .ian, .ian>h1{
-  color: rgb(146, 52, 208)
+  color: #5c2789
 }
 
 .ian h2{
-  color:rgb(156, 81, 213)
+  color:#8a45c5
 }
 
 
 
 .lex, .lex>h1{
-  color: rgb(28, 90, 234)
+  color: #2749c6
 }
 
 .lex h2{
-  color:rgb(55, 138, 247)
+  color:#5c7cf0
 }
 
 
 .green, .green>h1{
-  color: rgb(25, 188, 153)
+  color: #26a285
 }
 
 .green h2{
-  color:rgb(108, 239, 217)
+  color:#7bddc6
 }
 
 

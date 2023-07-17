@@ -3,6 +3,9 @@ import { InView } from 'react-intersection-observer';
 import Tech from "./Tech"
 import Card from "./Card"
 import data from "../data.json"
+import Blob from "./Blob"
+import TechToggle  from './TechToggle';
+
 
 const InfoCards = ({ setTheme }) => {
 
@@ -25,12 +28,13 @@ const InfoCards = ({ setTheme }) => {
     </div> */}
     {/* <InView as="div" onChange={handleInView}> */}
 
-
+ <Blob />
 
     {data.map((item, idx) => {
       return (
+     
         <React.Fragment key={idx} >
-
+ 
           <Card
             setVideoUrl={setVideoUrl}
             setTheme={setTheme}
@@ -45,8 +49,13 @@ const InfoCards = ({ setTheme }) => {
         </React.Fragment>
       )
     })}
+   
     {/* </InView> */}
-    <Tech videoUrl={videoUrl} />
+    <div className="relative">
+      <Tech videoUrl={videoUrl} />
+    
+    </div>
+   
 
   </>
   )

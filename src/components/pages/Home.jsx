@@ -53,10 +53,6 @@ const Home = () => {
             </div>
 
 
-
-
-
-
             <div className=" grid grid-cols-1 md:grid-cols-2 w-10/12  mx-auto max-w-3xl md:max-w-full   gap-8  md:gap-32 lg:gap-56  items-center">
                 <div className=" md:mb-20  ">
                     <div className="relative mt-8 md:mt-16 w-[325px]  lg:w-[370px]  md:w-full mx-auto">

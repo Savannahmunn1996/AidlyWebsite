@@ -20,9 +20,9 @@ const Card = ({ name, header, description, textcolor, textcolortwo, setTheme, se
 
     return (
         <div className={`flex w-3/6 flex-col pt-2 mr-32 gap-2  test ${textcolor}`} ref={ref}>
-            <h1 className={`mt-20 text-4xl lg:text-5xl px-24 ml-36 pt-10 `}>{name}</h1>
-            <h1 className={`break-all text-5xl md:ml-36 mt-16 md:mt-32 `}>{header}</h1>
-            <h2 className={`text-4xl mt-8 md:mt-12 ml-36`}>{description}</h2>
+            <h1 className={` text-4xl lg:text-5xl px-24 ml-36  `}>{name}</h1>
+            <h1 className={`break-all text-4xl md:ml-36 mt-16 md:mt-32 `}>{header}</h1>
+            <h2 className={`text-3xl mt-8 md:mt-12 ml-36`}>{description}</h2>
         </div>
     )
 }
