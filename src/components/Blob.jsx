@@ -3,7 +3,7 @@ import blob from "../assets/b.svg"
 
 const Blob = () => {
   return (
-    <div className='mr-40 sticky top-72 flex justify-end'>
+    <div className='md:mr-36 sticky top-72 flex justify-end'>
 
 < img className= "h-96   z-10" src={blob} alt= "blob"/>
     </div>

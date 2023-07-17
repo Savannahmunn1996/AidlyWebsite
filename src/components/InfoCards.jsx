@@ -5,6 +5,7 @@ import Card from "./Card"
 import data from "../data.json"
 import Blob from "./Blob"
 import TechToggle  from './TechToggle';
+import Ipad from "./Ipad"
 
 
 const InfoCards = ({ setTheme }) => {
@@ -29,6 +30,12 @@ const InfoCards = ({ setTheme }) => {
     {/* <InView as="div" onChange={handleInView}> */}
 
  <Blob />
+ 
+ <div className=" flex md:mr-80 top-96  absolute inset-y-0 right-0  mt-80  ">
+    <button className='text-white mr-3'> Iphone</button> <button className='text-white ml-3'> Ipad</button>  
+   
+    </div>
+   
 
     {data.map((item, idx) => {
       return (
@@ -51,12 +58,9 @@ const InfoCards = ({ setTheme }) => {
     })}
    
     {/* </InView> */}
-    <div className="relative">
-      <Tech videoUrl={videoUrl} />
-    
-    </div>
    
-
+      <Tech videoUrl={videoUrl} />
+   
   </>
   )
 }

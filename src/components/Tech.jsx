@@ -17,7 +17,7 @@ const Tech = ({ videoUrl }) => {
 
     return (
       
-        <div className=" flex justify-center items-center fixed inset-y-0 right-0 mx-auto   lg:mt-16 lg:mb-10 md:gap-32 lg:pr-48 md:items-center z-20">
+        <div className=" flex justify-center items-center fixed inset-y-0 h-1/2 right-0 mx-auto pt-72  lg:mt-12  md:gap-32 lg:pr-48 md:items-center z-20">
             <div className=" ">
                 <div className="relative mt-8 md:mt-16 w-[250px]  lg:w-[325px]  mx-auto">
                     <img
