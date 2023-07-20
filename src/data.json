@@ -13,7 +13,7 @@
         "description": "Workouts, Diet, Goals",
         "textcolor": "pink",
        
-        "cardVideoUrl": "https://www.youtube.com/watch?v=V5AEBl8sIdo"
+        "cardVideoUrl": "/tyravid.MP4"
     },
     {
         "name": "Emma",
@@ -21,21 +21,21 @@
         "description": "Recipes, Nutrition, Meal Plans",
         "textcolor": "blue",
         
-        "cardVideoUrl": "/screen.MP4"
+        "cardVideoUrl": "/lexvid.MP4"
     },
     {
         "name": "Linus",
         "header": "Your Tech Support In Your Pocket",
         "description": "Troubleshooting, Guided Instructions",
         "textcolor": "purple",
-        "cardVideoUrl": "https://www.youtube.com/watch?v=Fr-CuY0H38A"
+        "cardVideoUrl": "/screen.MP4"
     },
     {
         "name": "Tyra",
         "header": "Your Legal Aide In Your Pocket",
         "description": "Legal Explanation, Templates",
         "textcolor": "red",
-        "cardVideoUrl": "https://www.youtube.com/watch?v=pyEKOY1TIbU"
+        "cardVideoUrl": "/tyravid.MP4"
        
     },
     {
@@ -43,7 +43,7 @@
         "header": "Your Developer In Your Pocket",
         "description": "Code, Code Explanation, Conversion",
         "textcolor": "ian",
-        "cardVideoUrl": "https://www.youtube.com/watch?v=Fr-CuY0H38A"
+        "cardVideoUrl": "/lexvid.MP4"
     },
     {
         "name": "Lex",
@@ -56,8 +56,8 @@
         "name": "Andre",
         "header": "Your Car Aide In Your Pocket",
         "description": "Common Issue Info, Troubleshooting",
-        "textcolor": "green ",
-        "cardVideoUrl": "https://www.youtube.com/watch?v=Fr-CuY0H38A"
+        "textcolor": "green",
+        "cardVideoUrl": "/lexvid.MP4"
     
     }
 ]

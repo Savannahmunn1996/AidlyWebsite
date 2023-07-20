@@ -27,7 +27,7 @@ const Foot = () => {
 
 
   return (
-    <footer className="bg-footz  relative w-full text-white">
+    <footer className="bg-footz relative w-full text-white">
       <div className="max-w-full  mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className='lg:justify-center items-center ml-12 lg:ml-40'>

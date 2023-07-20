@@ -6,17 +6,20 @@ import data from "../data.json"
 import Blob from "./Blob"
 import TechToggle  from './TechToggle';
 import Ipad from "./Ipad"
+import CallToAction from './CallToAction';
 
 
-const InfoCards = ({ setTheme }) => {
+const InfoCards = ({ setTheme, theme }) => {
 
 
   const [videoUrl, setVideoUrl] = useState('/screen.MP4');
 
   const handleInView = (inView, entry) => {
-    console.log('Inview:', inView)
-    console.log("entry:", entry)
+    // console.log('Inview:', inView)
+    // console.log("entry:", entry)
   }
+
+  console.log(theme)
 
 
 
@@ -29,12 +32,9 @@ const InfoCards = ({ setTheme }) => {
     </div> */}
     {/* <InView as="div" onChange={handleInView}> */}
 
- <Blob />
  
- <div className=" flex md:mr-80 top-96  absolute inset-y-0 right-0  mt-80  ">
-    <button className='text-white mr-3'> Iphone</button> <button className='text-white ml-3'> Ipad</button>  
-   
-    </div>
+    <Blob theme={theme}/>
+ 
    
 
     {data.map((item, idx) => {
@@ -56,11 +56,12 @@ const InfoCards = ({ setTheme }) => {
         </React.Fragment>
       )
     })}
+    
    
     {/* </InView> */}
    
-      <Tech videoUrl={videoUrl} />
-   
+      <Tech videoUrl={videoUrl} theme={theme}/>
+   <CallToAction></CallToAction>
   </>
   )
 }

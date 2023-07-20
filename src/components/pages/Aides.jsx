@@ -1,8 +1,10 @@
 
 import React from 'react'
 import InfoCards from '../InfoCards'
+import { useLocation } from 'react-router-dom';
+import Foot from "../Foot"
 
-const Aides = ({darkMode, setTheme}) => {
+const Aides = ({theme, darkMode, setTheme}) => {
 
   // const [currentIt, setIt] = useState();
 
@@ -42,7 +44,7 @@ const Aides = ({darkMode, setTheme}) => {
   // };
 
 
-
+  
 
 
 
@@ -51,7 +53,8 @@ const Aides = ({darkMode, setTheme}) => {
 
   return (
     <div className={`bg-${darkMode ? 'black' : 'black'}  min-h-screen  `} >
-      <InfoCards setTheme={setTheme}/>
+      <InfoCards theme={theme} setTheme={setTheme}/>
+      {/* <Foot isTheAides={isTheAides}></Foot> */}
       </div>
   )
 }

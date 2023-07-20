@@ -14,18 +14,19 @@ import Aides from './components/pages/Aides';
 import Contact from './components/pages/Contact';
 import Home from './components/pages/Home';
 import Foot from './components/Foot'
-
+import { useLocation } from 'react-router-dom';
 import Sticky from 'react-stickynode';
 
 
 
-function App() {
+function App({}) {
 
 
   const [darkMode, setDarkMode] = useState(false);
 
 
-  const [theme, setTheme] = useState('orange');
+  const [theme, setTheme] = useState('default');
+  
 
 
   return (
@@ -33,13 +34,13 @@ function App() {
       <Router>
         <AnimCursor />
 
-        <main className="bg-back flex flex-col bg-auto" >
+        <div className="bg-back flex flex-col bg-auto" >
 
           <div className="flex flex-col min-h-screen ">
             <Sticky enabled={true} top={0} innerZ={2}>
               <header>
                 <Navbar
-
+                  setTheme={setTheme}
                   theme={theme}
                   setDarkMode={setDarkMode}
                   darkMode={darkMode}
@@ -64,10 +65,11 @@ function App() {
 
             </main>
             <footer>
-              <Foot></Foot>
+             <Foot></Foot>
+              
             </footer>
           </div>
-        </main>
+        </div>
       </Router>
     </>
   )
