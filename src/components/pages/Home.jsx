@@ -67,7 +67,7 @@ const Home = () => {
                                 volume={0}
                                 muted={true}
                                 playing={true}
-                                loop={true}
+                                loop={true}x
                                 width="94%"
                                 height="95%"
                                 className="youtube-vid-container iframe object-cover  mx-auto rounded-[2.25rem] rounded-t-none"

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { InView } from 'react-intersection-observer';
+// import { InView } from 'react-intersection-observer';
 import Tech from "./Tech"
 import Card from "./Card"
 import data from "../data.json"
@@ -14,10 +14,10 @@ const InfoCards = ({ setTheme, theme }) => {
 
   const [videoUrl, setVideoUrl] = useState('/screen.MP4');
 
-  const handleInView = (inView, entry) => {
-    // console.log('Inview:', inView)
-    // console.log("entry:", entry)
-  }
+  // const handleInView = (inView, entry) => {
+  //   // console.log('Inview:', inView)
+  //   // console.log("entry:", entry)
+  // }
 
   console.log(theme)
 
@@ -51,6 +51,7 @@ const InfoCards = ({ setTheme, theme }) => {
             textcolor={item.textcolor}
             textcolortwo={item.textcolortwo}
             cardVideoUrl={item.cardVideoUrl}
+            theme={theme}
           />
 
         </React.Fragment>
@@ -60,7 +61,7 @@ const InfoCards = ({ setTheme, theme }) => {
    
     {/* </InView> */}
    
-      <Tech videoUrl={videoUrl} theme={theme}/>
+      {theme !== 'green' && <Tech videoUrl={videoUrl} theme={theme}/>}
    <CallToAction></CallToAction>
   </>
   )

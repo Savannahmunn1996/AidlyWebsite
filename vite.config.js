@@ -5,9 +5,12 @@ import react from '@vitejs/plugin-react'
 export default defineConfig(({ command }) => {
   if (command === 'build') {
     return {
-      base: "/wp-content/reactpress/apps/aidlywebsite/dist/",
+      base: "/wp-content/reactpress/apps/aidly/dist/",
       plugins: [react()],
-      assetsInclude: ['**/*.MP4']
+      assetsInclude: ['**/*.MP4'],
+      build: {
+        outDir: "build"
+      }
     }
   } else {
     return {

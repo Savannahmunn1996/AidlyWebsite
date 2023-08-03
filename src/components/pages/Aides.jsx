@@ -15,34 +15,7 @@ const Aides = ({ theme, darkMode, setTheme }) => {
 
   // };
 
-  //I am thinking about using this if statement to render each aides component and I
-  //am thinking of how I can do it based on scroll.
-
-  // const Render = () => {
-  //   if (currentIt === 'Home') {
-
-  //   }
-  //   if (currentIt === 'Aides') {
-
-  //   }
-  //   if (currentIt === 'Contact') {
-
-  //   }
-  //   if (currentIt === 'Contact') {
-
-  //   }
-  //   if (currentIt === 'Contact') {
-
-  //   }
-  //   if (currentIt === 'Contact') {
-
-  //   }
-  //   if (currentIt === 'Contact') {
-
-  //   }
-
-  //   return <Atlan/>;
-  // };
+  
   const location = useLocation();
 
 

@@ -17,16 +17,16 @@ const Blob = ({theme}) => {
 
 
   return (
-    <div className='md:mr-40 sticky top-72 flex justify-end'>
+    <div className='md:mr-40 sticky top-56 md:top-72 flex justify-center md:justify-end'>
 
-      {theme === 'orange' && <img className="h-96 z-10" src={BlobAtlan} alt="blob" />}
-      {theme === 'pink' && <img className="h-96 z-10" src={BlobJess} alt="blob" />}
-      {theme === 'blue' && <img className="h-96 z-10" src={BlobEmma} alt="blob" />}
-      {theme === 'purple' && <img className="h-96 z-10" src={BlobLinus} alt="blob" />}
-      {theme === 'red' && <img className="h-96 z-10" src={BlobTyra} alt="blob" />}
-      {theme === 'ian' && <img className="h-96 z-10" src={BlobIan} alt="blob" />}
-      {theme === 'lex' && <img className="h-96 z-10" src={BlobLex} alt="blob" />}
-      {theme === 'green' && <img className="h-96 z-10" src={BlobAndre} alt="blob" />}
+      {theme === 'orange' && <img className="h-80 ml-10 md:ml-0 md:h-96 z-10" src={BlobAtlan} alt="blob" />}
+      {theme === 'pink' && <img className="h-80 ml-10 md:ml-0 md:h-96 z-10" src={BlobJess} alt="blob" />}
+      {theme === 'blue' && <img className="h-80 ml-10 md:ml-0 md:h-96 z-10" src={BlobEmma} alt="blob" />}
+      {theme === 'purple' && <img className="h-80 ml-10 md:ml-0 md:h-96 z-10" src={BlobLinus} alt="blob" />}
+      {theme === 'red' && <img className="h-80 ml-10 md:ml-0 md:h-96 z-10" src={BlobTyra} alt="blob" />}
+      {theme === 'ian' && <img className="h-80 ml-10 md:ml-0 md:h-96 z-10" src={BlobIan} alt="blob" />}
+      {theme === 'lex' && <img className="h-80 ml-10 md:ml-0 md:h-96 z-10" src={BlobLex} alt="blob" />}
+      {theme === 'green' && <img className="h-80 ml-10 md:ml-0 md:h-96 z-10" src={BlobAndre} alt="blob" />}
       {/* < img className="h-96   z-10" src={BlobJess} alt="blob" /> */}
     </div>
   )
